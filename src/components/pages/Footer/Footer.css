@@ -139,8 +139,6 @@
 @media screen and (max-width: 840px) {
     .footer-links{
         padding-top: 2rem;
-        
-
     }
     .footer-input{
         max-width: 100%;
@@ -150,11 +148,13 @@
         width: 90%;
     }
     .footer-link-wrapper{
-        flex-direction: column;
-        
+        flex-direction: column;    
     }
     .social-media-wrapper{
         flex-direction: column;
+    }
+    .footer-link-items{
+        align-items: center;
     }
     
 }

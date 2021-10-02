@@ -54,14 +54,14 @@ export default function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <Link to='/' className="nav-links" onClick={CloseMobileMenu}>
+                        <Link to='/services' className="nav-links" onClick={CloseMobileMenu}>
                             Services
                         </Link>
                     </li>
 
                     <li className="nav-item">
-                        <Link to='/' className="nav-links" onClick={CloseMobileMenu}>
-                            Product
+                        <Link to='/blogs' className="nav-links" onClick={CloseMobileMenu}>
+                            Blogs
                         </Link>
                     </li>
                     <li className="nav-btn">

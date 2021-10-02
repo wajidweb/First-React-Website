@@ -1,0 +1,352 @@
+.first-hero-section{
+    background-image: url('https://media.istockphoto.com/photos/futuristic-abstract-background-picture-id1253467286?b=1&k=20&m=1253467286&s=170667a&w=0&h=ZPT2DwfAVvoSXXTzK9Zix1sNUIRLDFEfsEUx0NsLCX8=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 4rem 0 3rem 0;
+    color: #fff;
+}
+
+.fist-hero-section-container{
+    
+    padding: 3rem;
+    width: 1400px;
+    max-width: 600px;
+   
+}
+
+.container-contents{
+   
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 90px;
+}
+.container-contents-texts{
+    margin-bottom: 50px;
+    
+    max-width: 100%;
+}
+.contents-para{
+    margin-bottom: 30px;
+    font-size: 2.3rem;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contents-description{
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    max-width: 440px;
+}
+.container-contents-buttons{
+    display: flex;
+   
+    width: 900px;
+    max-width: 350px;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 640px) {
+    .container-contents{
+        padding-left: 0;
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-contents-buttons{
+        flex-direction: column;
+        max-width: 300px;
+        
+        align-items: center;
+        
+
+        
+    }
+    .container-contents-buttons Button{
+        margin-bottom: 10px;
+    }
+
+    .fist-hero-section-container{
+        
+        padding: 0;
+        max-width: 300px;
+        
+    }
+    .first-hero-section{
+        display: flex;
+        justify-content: center;
+        padding-top: 8rem;
+    }
+    
+}
+
+
+
+.box-container{
+   width: 100%;
+   max-width: 250px;
+    padding: 1.5rem;
+    background-color: rgb(206, 206, 206);
+    color: #000000;
+    border-radius: 10px;
+    margin: 0 2rem 2rem 2rem;
+    border-bottom: 4px solid rgb(59, 204, 54);
+    cursor: pointer;
+    
+}
+.box-container:hover{
+    background-color: rgb(233, 233, 233);
+    transition: 0.2s ease-out;
+}
+.box-container-wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.box-price{
+    
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.image-box{
+    margin-bottom: 15px;
+}
+.box-heading{
+    
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+
+.second-section{
+   
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c2237;
+   
+}
+
+.second-section-container{
+    
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+   top: -80px;
+}
+.box-same{
+   
+   display: flex;
+   flex-direction: row;
+}
+
+
+@media screen and (max-width: 900px ) {
+    .second-section-container{
+        flex-direction: column;
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .box-same{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-container{
+        border-top: 4px solid rgb(59, 204, 54);
+    }
+}
+
+
+
+
+
+.third-container{
+    
+    padding: 3rem 7rem 2rem 7rem;
+    background-color: #1c2237;
+   
+}
+.third-container-wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.main-box-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.main-box-wrapper{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-container{
+   
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    
+
+}
+.text-container-p{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+}
+
+
+.deposite-box{
+
+    padding: 1.5rem;
+    
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    
+}
+.depostie-box-wrapper{
+    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.content-box{
+
+    margin-bottom: 20px;
+    
+}
+.content-box p{
+    margin-bottom: 10px;
+}
+
+.deposite-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.deposite-price{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.deposite-validity{
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deposite-profit{
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.deposite-date{
+        font-size: 0.9rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 900px) {
+    .third-container{
+        padding: 40px;
+    }
+    .text-container{
+        padding: 10px;
+    }
+    .third-container-wrapper{
+        padding: 10px;
+    }
+
+    
+    .main-box-wrapper{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+.last-container{
+    background-image: url('https://media.istockphoto.com/photos/modern-businesswoman-using-tablet-picture-id1286023691?b=1&k=20&m=1286023691&s=170667a&w=0&h=__cKDVjtK-nSPf0jCMuuiGvgdp3yOHEsLI-dDQlLB9c=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.last-container-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0 6rem 0;
+    background-color: #1c223752;
+
+}
+.contents-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.last-p{
+    
+    width: 100%;
+    max-width: 500px;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 550px) {
+    .last-p{
+        max-width: 300px;
+    }
+}

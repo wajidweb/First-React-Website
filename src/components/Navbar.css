@@ -9,11 +9,15 @@
     position: sticky;
     top: 0;
     z-index: 999;
+   
+    
 }
 .navbar-container{
     height: 80px;
     display: flex;
     justify-content: space-between;
+    
+   
 }
 .container{
     z-index: 1;
@@ -23,6 +27,7 @@
     margin-left: auto;
     padding-left: 50px;
     padding-right: 50px;
+    
    
 }
 .navbar-logo{

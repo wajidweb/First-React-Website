@@ -50,7 +50,7 @@ export const homeObjTwo = {
     headline: 'Every transaction is stored on our secure cloud database',
     description:
       'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
-    buttonLabel: 'Sign Up Now',
+    buttonLabel: 'Deposite',
     imgStart: 'start',
     
     alt: 'Vault'

@@ -10,7 +10,7 @@ export default function Home() {
         <HeroSection {...homeObjThree} />
         <HeroSection {...homeObjTwo} />
         <HeroSection {...homeObjFour} />
-        <Footer />
+        
         </>
     )
 }

@@ -1,0 +1,120 @@
+.blog-container{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.651);
+}
+.blog-container-wrapper{
+    padding: 4rem 9rem 4rem 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.blogbox-container{
+    flex: 1;
+    border: 0.2px solid rgba(0, 0, 0, 0.158);
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.blogbox-container-wraper{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 100%;
+    background-color: rgba(223, 223, 223, 0.425);
+    
+   
+}
+.blog-image{
+   
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.box-contents-container-wrapper{
+    
+    padding: 2rem 1rem 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-box{
+   
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.blog-titile{
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: black;
+}
+.blog-titile:hover{
+    color: rgb(40, 51, 68);
+}
+.date{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: gray;
+    cursor: pointer;
+}
+.author{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+.description-box{
+    
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 1.5;
+    color: rgb(99, 99, 99);
+}
+.read-btn{
+    
+    width: 100%;
+    margin-top: 20px;
+    max-width: 100%;
+
+}
+
+.blogs-sections{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .blog-container-wrapper{
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .blog-container-wrapper{
+        flex-direction: column;
+    }
+    .blogs-sections{
+        flex-direction: column;
+    }
+    .read-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .blogbox-container{
+        margin-right: 0;
+    }
+}
